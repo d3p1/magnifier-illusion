@@ -30,8 +30,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup Node.js
-
       - name: Generate release
         uses: d3p1/semantic-releasify@v1
         env :
